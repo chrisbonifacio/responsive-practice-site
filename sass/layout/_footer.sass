@@ -1,0 +1,51 @@
+footer
+  background: $dark
+  color: $text-inverse
+  padding: 5em 0
+  position: relative
+
+  &::before
+    content: ""
+    display: block
+    position: absolute
+    background: url(../img/logo.svg)
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    opacity: 0.05
+
+  a
+    color: $text-inverse
+
+  @media (min-width: 414px)
+    padding: 5em 1em
+
+  @media (min-width: 768px)
+    padding: 5em 6em
+
+  @media (min-width: 1024px)
+    padding: 5em 15em
+
+.social-links
+  display: flex
+  justify-content: space-around
+  font-size: 3rem
+  opacity: 0.6
+  margin: .7em 0
+
+.nav-footer
+  display: flex
+  justify-content: space-around
+  margin: 0 auto
+
+  a
+    text-decoration: none
+    font-weight: $font-bold
+
+
+.footer-container
+  max-width: 25em
