@@ -785,7 +785,13 @@ h2 {
 }
 
 .sales-points {
-  padding: 5em 0;
+  padding: 8em 0;
+}
+
+@media (min-width: 725px) {
+  .sales-points {
+    padding: 14em 0 5em 0;
+  }
 }
 
 .sales-point {
